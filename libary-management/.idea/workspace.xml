@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2b5b267-7560-467f-8010-27a075ec9ed6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/springboot/controller/request/测试.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2KU1JzrhhQIARQxNgYtOAKeKK3R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\实战项目\图书管理系统demo\libary-management\springboot\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springboot.entity" />
+      <recent name="com.example.springboot" />
+      <recent name="com.example.springboot.service.impl" />
+      <recent name="com.example.springboot.service" />
+      <recent name="com.example.springboot.mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootApplication">
+    <configuration name="测试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot.controller.request.测试" />
+      <module name="springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot.controller.request.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot.SpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.测试" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2b5b267-7560-467f-8010-27a075ec9ed6" name="Changes" comment="" />
+      <created>1674014281231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674014281231</updated>
+      <workItem from="1674014282528" duration="6262000" />
+      <workItem from="1674020648845" duration="1912000" />
+      <workItem from="1674025841908" duration="32000" />
+      <workItem from="1674025887145" duration="1202000" />
+      <workItem from="1674027111642" duration="552000" />
+      <workItem from="1674027692646" duration="9301000" />
+      <workItem from="1674107070994" duration="14392000" />
+      <workItem from="1674214551104" duration="7528000" />
+      <workItem from="1674266868625" duration="14000" />
+      <workItem from="1674300649839" duration="3000" />
+      <workItem from="1674301378845" duration="2317000" />
+      <workItem from="1674394364957" duration="2503000" />
+      <workItem from="1674476484609" duration="3609000" />
+      <workItem from="1674712491970" duration="9117000" />
+      <workItem from="1674811432176" duration="11071000" />
+      <workItem from="1674825736501" duration="699000" />
+      <workItem from="1674826793458" duration="9201000" />
+      <workItem from="1674878189654" duration="14978000" />
+      <workItem from="1674957617045" duration="9962000" />
+      <workItem from="1675079592575" duration="6343000" />
+      <workItem from="1675222796633" duration="32858000" />
+      <workItem from="1675310417238" duration="22477000" />
+      <workItem from="1675412814071" duration="6306000" />
+      <workItem from="1675478770853" duration="19857000" />
+      <workItem from="1675565396679" duration="3190000" />
+      <workItem from="1675590534866" duration="5000" />
+      <workItem from="1675604540841" duration="941000" />
+      <workItem from="1676253948214" duration="85000" />
+      <workItem from="1676254045164" duration="747000" />
+      <workItem from="1676256778822" duration="2500000" />
+      <workItem from="1676293987217" duration="199000" />
+      <workItem from="1676370546404" duration="45000" />
+      <workItem from="1679449432621" duration="2090000" />
+      <workItem from="1679460188639" duration="11000" />
+      <workItem from="1680409394497" duration="653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

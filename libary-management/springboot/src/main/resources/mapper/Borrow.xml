@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot.mapper.BorrowMapper">
+    <select id="list" resultType="com.example.springboot.entity.Borrow">
+        select * from borrow order by id desc
+    </select>
+
+    <select id="listByCondition" resultType="com.example.springboot.entity.Borrow">
+        select * from borrow
+        <where>
+            <if test="bookName !=null and bookName != '' ">
+                book_name like concat('%',#{bookName},'%')
+            </if>
+            <if test="bookNo !=null and bookNo != '' ">
+                and book_no =#{bookNo}<!--唯一的图书编号，所以就用等于-->
+            </if>
+            <if test="userName !=null and userName != '' ">
+               and user_name like concat('%',#{userName},'%')
+            </if>
+        </where>
+        order by id desc
+    </select>
+
+    <!--还书的查询语句-->
+    <select id="listReturByCondition" resultType="com.example.springboot.entity.Retur">
+        select * from retur
+        <where>
+            <if test="bookName !=null and bookName != '' ">
+                book_name like concat('%',#{bookName},'%')
+            </if>
+            <if test="bookNo !=null and bookNo != '' ">
+                and book_no =#{bookNo}<!--唯一的图书编号，所以就用等于-->
+            </if>
+            <if test="userName !=null and userName != '' ">
+                and user_name like concat('%',#{userName},'%')
+            </if>
+        </where>
+        order by id desc
+    </select>
+
+    <!--插入还书-->
+    <insert id="saveRetur">
+        insert into retur(book_name,book_no,user_no,user_name,user_phone,score,days,return_date,real_date,status)
+        value(#{bookName},#{bookNo},#{userNo},#{userName},#{userPhone},#{score},#{days},#{returnDate},#{realDate},#{status})
+    </insert>
+
+    <!--根据id查询-->
+    <select id="getById" resultType="com.example.springboot.entity.Borrow">
+        select * from borrow where id=#{id}
+    </select>
+
+    <!--添加用户-->
+    <insert id="save">
+        insert into borrow(book_name,book_no,user_no,user_name,user_phone,score,days,return_date)
+        value(#{bookName},#{bookNo},#{userNo},#{userName},#{userPhone},#{score},#{days},#{returnDate})
+    </insert>
+
+    <!--更新数据-->
+    <update id="updateById">
+        update borrow set book_name=#{bookName},book_no=#{bookNo},
+        user_no=#{userNo},user_name=#{userName},
+        user_phone=#{userPhone},score=#{score},status=#{status},days=#{days},return_date=#{returnDate},
+        updatetime=#{updatetime} where id =#{id}
+    </update>
+
+<!--    还书更新状态-->
+    <update id="updateStatus">
+        update borrow set status=#{status} where id=#{id}
+    </update>
+
+    <!--根据id删除数据-->
+    <delete id="deleteById">
+        delete from borrow where id= #{id}
+    </delete>
+    <!--还书删除-->
+    <delete id="deleteReturById">
+        delete from retur where id= #{id}
+    </delete>
+</mapper>

@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+*{
+    box-sizing: border-box;
+}
+.el-table{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+th{
+    background-color: aliceblue !important;
+}
