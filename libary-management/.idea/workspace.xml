@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b5b267-7560-467f-8010-27a075ec9ed6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/springboot/target/classes/com/example/springboot/controller/request/测试.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c2b5b267-7560-467f-8010-27a075ec9ed6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,6 +147,8 @@
       <workItem from="1679449432621" duration="2090000" />
       <workItem from="1679460188639" duration="11000" />
       <workItem from="1680409394497" duration="653000" />
+      <workItem from="1680834584422" duration="2000" />
+      <workItem from="1681114675928" duration="383000" />
     </task>
     <servers />
   </component>
